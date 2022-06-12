@@ -1,8 +1,7 @@
--------> shopping cart icons 
--------> home__row products changing row-col sizes
--------> prime wallpaper on top 
 -------> changing all products
 -------> product ratings 
 -------> half stars ratings like 4.6/5
-*******-------> drop down menu in shopping cart for add to cart 
 ----> checkout price right align to description
+
+
+*******-------> drop down menu in shopping cart for add to cart 

@@ -10,6 +10,12 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    transition: transform 300ms ease-in;
+}
+
+.product:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
 }
 
 .product>img {
@@ -17,6 +23,11 @@
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
+    transition: transform 300ms ease-in;
+}
+
+.product>img:hover {
+    transform: scale(1.07);
 }
 
 .product>button {
@@ -25,11 +36,22 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    transition: transform 300ms ease-in;
+}
+
+.product>button:hover{
+    transform: scale(1.07);
+    cursor: pointer;
 }
 
 .product__info {
     height: 100px;
     margin-bottom: 5px;
+    transition: transform 100ms ease-in;
+}
+
+.product__info:hover {
+    transform: scale(1.02);
 }
 
 .product__price {
