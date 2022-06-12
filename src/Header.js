@@ -14,6 +14,9 @@ function Header() {
     }
   }
 
+  const primeHandle = () => {
+    window.open("https://www.primevideo.com/");
+  }
   return (
     <div className="header">
       <Link to="/">
@@ -52,14 +55,16 @@ function Header() {
           </span>
         </div>
 
-        <div className="header__option">
-          <span className="header__option1">
-            Your
-          </span>
-          <span className="header__option2">
-            Prime
-          </span>
-        </div>
+          <div 
+          onClick={primeHandle}
+          className="header__option">
+            <span className="header__option1">
+              Your
+            </span>
+            <span className="header__option2">
+              Prime
+            </span>
+          </div>
 
         <Link to="/checkout">
           <div className="header__optionBasket">

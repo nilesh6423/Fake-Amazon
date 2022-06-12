@@ -46,6 +46,7 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .header__option1 {
