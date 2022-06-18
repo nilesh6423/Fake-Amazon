@@ -46,25 +46,27 @@ function Header() {
           </div>
         </Link>
 
-        <div className="header__option">
-          <span className="header__option1">
-            Returns
-          </span>
-          <span className="header__option2">
-            & Orders
-          </span>
-        </div>
-
-          <div 
-          onClick={primeHandle}
-          className="header__option">
+        <Link to={"/orders"}>
+          <div className="header__option">
             <span className="header__option1">
-              Your
+              Returns
             </span>
             <span className="header__option2">
-              Prime
+              & Orders
             </span>
           </div>
+        </Link>
+
+        <div
+          onClick={primeHandle}
+          className="header__option">
+          <span className="header__option1">
+            Your
+          </span>
+          <span className="header__option2">
+            Prime
+          </span>
+        </div>
 
         <Link to="/checkout">
           <div className="header__optionBasket">

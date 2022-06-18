@@ -22,7 +22,7 @@ const CheckoutProduct = forwardRef(({ id, title, image, price, rating, hideButto
                 <p className='checkoutProduct__title'>{title}</p>
                 <p className='checkoutProduct__price'>
                     <small>₹</small>
-                    <strong>{price}</strong>
+                    <strong>{price}.00 </strong>
                 </p>
                 <div className='checkoutProduct__rating'>
                     {Array(rating).fill().map((_, i) => (

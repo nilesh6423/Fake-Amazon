@@ -2,6 +2,9 @@
 -------> product ratings 
 -------> half stars ratings like 4.6/5
 ----> checkout price right align to description
-
+-----> address at home page and at payment page
 
 *******-------> drop down menu in shopping cart for add to cart 
+|
+|
+  ----->>  https://github.com/CleverProgrammers/react-challenge-march21-amazon-clone/tree/master/src
